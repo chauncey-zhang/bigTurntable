@@ -1,0 +1,332 @@
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-touch-callout: none;
+	/*font-size: 62.5%;*/
+}
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #b91533;
+	font-family: SimHei;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	width:375px;
+	/*border: 1px solid white;*/
+}
+img {
+	display: block;
+	border: none;
+	width: 100%;
+}
+.jiesuan a:visited{
+	color:white;
+	text-decoration: none;
+}
+.jiesuan a{
+	color:white;
+	text-decoration: none;
+}
+.choujiang_count{
+	color: white;
+	font-size: 14px;
+	padding-left: 150px;
+}
+
+.choujiang_ctx {
+	background: url(../images/header.jpg) no-repeat;
+	background-size: 100%;
+	background-position: top;
+	/*min-height: 496px;*/
+	
+	padding-top: 180px;
+	overflow: hidden;
+}
+.choujiang_action_an {
+	width: 333px;
+	margin: 10px auto 0 auto;
+	background: url(../images/an.png) no-repeat;
+	background-color: #5f0006;
+	background-size: 100% 100%;
+	background-position: center center; 
+	height: 295px;
+	-webkit-border-radius: 12px;
+	-ms-border-radius:12px;
+	border-radius: 12px;
+}
+
+.choujiang_action_liang {
+	width: 333px;
+	margin: 10px auto 0 auto;
+	background: url(../images/liang.png) no-repeat;
+	background-color: #5f0006;
+	background-size: 100% 100%;
+	background-position: center center; 
+	height: 295px;
+	-webkit-border-radius: 12px;
+	-ms-border-radius:12px;
+	border-radius: 12px;
+}
+table {
+	padding-top: 20px;
+	margin: 0 auto;
+}
+td {
+	width: 98.5px;
+	height: 81px;
+	text-align: center;
+}
+
+
+table tr:nth-child(1) td:nth-child(1),
+table tr:nth-child(1) td:nth-child(3),
+table tr:nth-child(3) td:nth-child(1),
+table tr:nth-child(3) td:nth-child(3) {
+	background: url(../images/brown.png) no-repeat;
+	background-position: center center;
+	background-size: 97%;
+	color: #fce0c0;
+	position: relative;
+}
+table tr:nth-child(1) td:nth-child(2),
+table tr:nth-child(2) td:nth-child(1),
+table tr:nth-child(2) td:nth-child(3),
+table tr:nth-child(3) td:nth-child(2) {
+	background: url(../images/red.png) no-repeat;
+	background-position: center center;
+	background-size: 97%;
+	color: #fcc3c0;
+	position: relative;
+}
+
+.num{
+	font-size: 22px;
+}
+
+.yuan,.type{
+	font-size: 15px;
+}
+.start {
+	background: url(../images/start.png) no-repeat;
+	background-position: center center;
+	background-size: 97%;
+	position: relative;
+}
+
+.end{
+	background: url(../images/end.png) no-repeat;
+	background-position: center center;
+	background-size: 97%;
+	position: relative;
+}
+
+/*table tr:nth-child(3) td:nth-child(3) {
+	background: url(../images/brown.png) no-repeat;
+	background-position: center center;
+	background-size: 97%;
+	position: relative;
+}*/
+
+.move:after{
+	position: absolute;
+	content: '';
+	width: 99px;
+	height: 78px;
+	z-index: 999;
+	background-color:rgba(255,255,255,0.5) ;
+	top: 4px;
+	left: 2px;
+	-webkit-border-radius: 10px;
+}
+
+/*table tr:nth-child(2) td:nth-child(2):active:after{
+	position: absolute;
+	content: '';
+	width: 99px;
+	height: 78px;
+	z-index: 999;
+	background-color:rgba(250,222,100,0.6) ;
+	top: 4px;
+	left: 2px;
+	-webkit-border-radius: 10px;
+}*/
+.prize_list {
+	width: 333px;
+	margin: 20px auto 0 auto;
+}
+.list_head {
+	background: url(../images/prize_list_head.png) no-repeat;
+	background-size: 45%;
+	background-position: left;
+	height: 42px;
+}
+.list_ctx {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #c63d51;
+	background-color: white;
+	font-size: 14px;
+	/*font-weight: 900;*/
+	border: 1px  green ;
+	overflow: hidden;
+	/*position: relative;*/
+}
+
+.choujiang_priciple {
+	width: 333px;
+	margin: 25px auto 26px auto;
+}
+.priciple_head {
+	background: url(../images/priciple.png) no-repeat;
+	background-size: 45%;
+	background-position: left;
+	height: 42px;
+}
+.priciple_ctx {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*height: 860px;*/
+	/*line-height: 35px;*/
+	padding-bottom: 30px;
+	/*text-align: center;*/
+	color: #c63d51;
+	background-color: white;
+	font-size: 14px;
+	/*font-weight: 900;*/
+}
+
+.priciple_ctx ul{
+	width: 80%;
+	list-style-position: outside;
+	line-height: 23px;
+	padding-top: 5px;
+	padding-left: 50px;
+	margin-top: 0;
+}
+
+.priciple_ctx ul li:nth-child(1){
+	margin-top: 5px;
+}
+
+.priciple_ctx ul li{
+	margin-top: 10px;
+}
+
+.priciple_title{
+	margin-left: 20px;
+	padding-top: 20px;
+	font-size: 16px;
+}
+
+/*结算框*/
+.prizePage{
+	background-color: rgba(0,0,0,0.8);
+	position: fixed;
+	height: 100%;
+	width: 375px;
+	top: 0;
+	display: none;
+	z-index: 1000;
+}
+
+.jiesuan{
+	width: 337px;
+	margin: 0 auto 0 auto;
+	/*display: none;*/
+}
+
+.jiesuan_head{
+	background: url(../images/cash_head.png) no-repeat;
+	background-size: 90%;
+	background-position: center bottom; 
+	height: 100px;
+}
+
+.jiesuan_ctx{
+	height: 196px;
+	background-color: white;
+}
+
+.jiesuan_ctx_txt{
+	color: #a85614;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.jiesuan_btn{
+	height: 53px;
+	line-height:53px ;
+	background-color: #f8a300;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+.jiesuan_prize_type{
+	font-size: 25px;
+}
+
+.jiesuan_intro{
+	font-size: 14px;
+}
+
+.ticket{
+	width: 337px;
+	margin: 19px auto 0 auto;
+	height: 67.5px;
+	/*background-color: #fe4e52;*/
+	/*visibility: hidden;*/
+	display: none;
+}
+
+.left{
+	width:24px;
+	height: 67.5px;
+	background-color: #fe8386;
+	color: #f7393e;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+}
+
+.vertical_txt{
+	margin-top: 11px;
+}
+
+.middle{
+	background-color: #fe4e52;
+	color: white;
+	width: 119px;
+	float: left;
+	height: 67.5px;
+	line-height: 67.5px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.renminbi{
+	font-size: 15px;
+}
+
+.right{
+	width:194px ;
+	height: 67.5px;
+	color: white;
+	float: left;
+	background: url(../images/ticket.png) no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	font-size: 11.5px;
+}
+.name_machang{
+	margin-left: 12px;
+	margin-top: 18px;
+}
+.ticket_detail{
+	margin-left: 12px;
+	margin-top:5px;
+}
